@@ -1,0 +1,8 @@
+[package]
+name = "trust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tun-tap = "0.1.2" # 创建虚拟网络设备
+etherparse = "0.8" # 解析ip包
